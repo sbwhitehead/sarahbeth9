@@ -1,0 +1,355 @@
+html {
+	height:100%;
+	margin:0px;
+}
+body{
+	margin:0px;
+	background-color: #2F4F4F;
+	height:100%;
+	z-index:-1000;
+}
+
+img.bg {
+	position: fixed;
+	margin:0px;
+	width:86%;
+	height:100%;
+	right:0px;
+	z-index:-1;
+	top:0px;
+	
+}
+
+div.bttn {
+	width:14%;
+	min-width:75px;
+	max-width:400px;
+	height:100%;
+	background-color: rgb(67, 142, 198);
+	z-index:5;
+	top:0px;
+	position: fixed;
+	
+}
+
+table.btn {
+	width:99%;
+	padding:15px 0px 18px 0px;
+	background-color:inherit;
+	z-index:5;
+	border-radius: 25px;
+	-webkit-transition: width 3s; /* For Safari 3.1 to 6.0 */
+   transition: width 2.5s;
+   	min-width:75px;
+	max-width:400px;
+}
+
+table.btn:hover {
+	margin-left:24%;
+	width: 130%;
+	transition: all .7s;
+	box-shadow: 14px 14px 10px -10px #7df28b;
+}
+
+
+button.bn {
+	text-decoration:none;
+	color:#7df28b;
+	width:100%;
+	padding:10px 28px 10px 0px;
+	background-color:inherit;
+	border-radius: 26px;
+	height:100%;
+	border:none;
+	text-align:right;
+	font-size:20px;
+	-webkit-transition: width 1.7s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:1.6vw;
+    font-size-adjust:auto;
+	font-weight: bold;
+}
+
+button.bn:hover {
+	font-size:26px;
+	color:rgb(67, 142, 198);
+	background-color:#7df28b;
+	width: 100%;
+	transition: all .6s;
+	padding-right:18%;
+	font-size:1.8vw;
+    font-size-adjust:auto;
+	
+}
+
+
+
+div.content{
+	border:  ;
+	background-color: rgb(67, 142, 198, .57);
+	z-index:1;
+	position: fixed;
+	right:0px;
+	width:86%;
+	top:0px;
+	height:120%;
+	opacity: ;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.textBox{
+	z-index:2;
+	position: absolute;
+	left:29%;
+	width:52%;
+	top:120px;
+	height:110%;
+	font-size:30px;
+	
+}
+
+p.about{
+	color:white;
+	font-family:"Days One";
+	width:97%;
+	position:relative;
+	white-space: normal;
+	padding: 6px 12px 10px 12px;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 3px 10px 20px 3px rgba(0, 0, 0, 0.19);
+	-webkit-text-stroke: 2px black;
+	/*background-color: rgb(67, 142, 198, .60);*/
+}
+
+p.about:hover {
+	background-color: rgb(67, 142, 198, .63);
+	transition: all .4s;
+}
+
+
+
+
+
+img.fnd {
+	position:fixed;
+	right: .6%;
+	z-index:1;
+	bottom:1%;
+	max-height:7%;
+	max-width:18.5%;
+	min-height:45px;
+	min-width:60px;
+	padding: 11px 6px 6px 0px;
+	border-radius: 10px;
+	background-color:rgb(255, 255, 255,0.70);
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 3px 10px 20px 3px rgba(0, 0, 0, 0.19);
+}
+
+img.fnd:hover {
+	
+}
+
+img.fb:hover {
+	
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 3px 10px 20px 3px rgba(0, 0, 0, 0.19);
+}
+
+img.fb {
+	position:fixed;
+	right: 1%;
+	z-index:5;
+	bottom:11%;
+	max-width:6%;
+	max-height:6%;
+	min-height:50px;
+	min-width:50px;
+	padding: 0px 6px 6px 0px;
+	border-radius: 10px;
+	opacity:.55;
+	padding:.5px;
+	margin: 0px;
+}
+
+p.slide {
+	text-align:center;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:325px;
+	position:absolute;
+	z-index:1;
+	max-width:700px;
+	opacity: .94;
+	top:470px;
+}
+
+div.border {
+	position:absolute;
+	top:440px;
+	width:82.5%;
+	height:290px;
+	border: 60px solid rgb(67, 142, 198);
+	bottom:360px;
+	z-index:2;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+	max-width:700px;
+	
+}
+h1.header {
+	text-decoration: none;
+	font-family:"Days One";
+	margin-bottom: 0px;
+	margin-top: 6px;
+}
+p.head {
+	font-family:"Days One";
+	text-decoration: none;
+	padding: 0px;
+	margin-top: 2px;
+	font-size: 26px;
+	margin-bottom: 6px;
+}
+
+a.h {
+	position: fixed;
+	left:27%;
+	text-align:center;
+	color:rgb(67, 142, 198);
+	 box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+	 background-color: #7df28b;
+	 border-radius: 38px;
+	 width:56%;
+	 z-index:3;
+	 text-decoration: none;
+	 top:2.5%;
+	 
+}
+
+/* brack.html */
+
+div.brack {
+    z-index:2;
+	position: absolute;
+	left:19.5%;
+	width:70%;
+	top:20%;
+	height:110%;
+	font-size:33px;
+	-webkit-text-stroke: 2px black;	
+}
+
+iframe.bracket {
+	width: 100%;
+	height: 1450px;
+	position:relative;
+	z-index:1;
+	margin:0px;
+	padding:0px;
+	border: 38px solid rgb(67, 142, 198);
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+iframe.pool {
+	width: 100%;
+	height: 1000px;
+	position:relative;
+	z-index:1;
+	margin:0px;
+	padding:0px;
+	border: 38px solid rgb(67, 142, 198);
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+iframe.scholar {
+	width: 100%;
+	height: 1000px;
+	position:relative;
+	z-index:1;
+	margin:0px;
+	padding:0px;
+	border: 38px solid rgb(67, 142, 198);
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+iframe.history {
+	width: 100%;
+	height: 1000px;
+	position:relative;
+	z-index:1;
+	margin:0px;
+	padding:0px;
+	border: 38px solid rgb(67, 142, 198);
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.regi{
+	position:absolute;
+	z-index:2;
+	left:29%;
+	width:52%;
+	top:19%;
+	height:110%;
+	font-size:30px;
+}
+
+button.forms {
+	text-decoration:none;
+	color:#7df28b;
+	width:30%;
+	padding:4px 8px 4px 8px;
+	background-color:rgb(67, 142, 198);
+	border-radius: 26px;
+	height:6%;
+	border:none;
+	text-align:center;
+	font-size:20px;
+	-webkit-transition: width 1.7s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:1.6vw;
+    font-size-adjust:auto;
+	font-weight: bold;
+	
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);	
+}
+
+button.forms:hover {
+	color:rgb(67, 142, 198);
+	background-color:#7df28b;
+	transition: all .4s;
+	font-weight: bold;
+}
+
+iframe.r {
+	padding-top:20px;
+	width:100%;
+	height: 2638px;
+}
+p.center {
+	text-align:center;
+	
+	
+}
+img.map{
+	width:100%;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 10px;
+	
+	
+}
+a.maps {
+	width:80%;
+	padding-left:10.5%;
+	padding-right:10%;
+	padding-bottom:50px;
+	margin-bottom:1%;
+	position:absolute;
+	top: 970px;
+	
+}
+img.map:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
