@@ -171,6 +171,10 @@ img.fb {
 	margin: 0px;
 }
 
+iframe.sl{
+	width:100%;	
+}
+
 p.slide {
 	text-align:center;
 	margin:0px;
