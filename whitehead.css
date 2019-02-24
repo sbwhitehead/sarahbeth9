@@ -193,8 +193,8 @@ div.border {
 	bottom:360px;
 	z-index:2;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+        margin-left: auto;
+        margin-right: auto;
 	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 	max-width:700px;
 	
