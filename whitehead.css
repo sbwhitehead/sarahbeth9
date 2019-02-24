@@ -22,7 +22,7 @@ img.bg {
 
 div.bttn {
 	width:14%;
-	min-width:75px;
+	min-width:150px;
 	max-width:400px;
 	height:100%;
 	background-color: rgb(67, 142, 198);
@@ -309,8 +309,9 @@ button.forms {
 	font-size:20px;
 	-webkit-transition: width 1.7s; /* For Safari 3.1 to 6.0 */
     transition: width 2s;
-	font-family:"Comic Sans MS", cursive, sans-serif;
-	font-size:1.6vw;
+	font-family: 'Comic Sans MS';
+	src: url("comic-sans-ms/comici.ttf");
+	font-size:calc(18px + 1.5vw);
     font-size-adjust:auto;
 	font-weight: bold;
 	
