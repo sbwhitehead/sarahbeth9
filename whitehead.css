@@ -96,6 +96,10 @@ div.content{
 }
 
 table.tb {
+	width:100%;
+}
+
+div.textBox{
 	z-index:2;
 	position: absolute;
 	left:29%;
@@ -103,11 +107,6 @@ table.tb {
 	top:120px;
 	height:110%;
 	font-size:30px;	
-}
-
-div.textBox{
-	width:100%;
-	
 }
 
 p.about{
