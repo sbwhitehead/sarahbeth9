@@ -80,7 +80,10 @@ button.bn:hover {
 	
 }
 
-
+#active{
+	color:rgb(67, 142, 198);
+	background-color:#7df28b;
+}
 
 div.content{
 	border:  ;
