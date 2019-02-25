@@ -62,25 +62,21 @@ button.bn {
 	height:100%;
 	border:none;
 	text-align:right;
-	font-size:20px;
 	-webkit-transition: width 1.7s; /* For Safari 3.1 to 6.0 */
    	transition: width 2s;
 	font-family: 'Comic Sans MS';
 	src: url("comic-sans-ms/comici.ttf");
-	font-size:calc(16px + 1.6vw);
+	font-size:calc(14px + 1.6vw);
         font-size-adjust:auto;
 	font-weight: bold;
 }
 
 button.bn:hover {
-	font-size:26px;
 	color:rgb(67, 142, 198);
 	background-color:#7df28b;
 	width: 100%;
 	transition: all .6s;
 	padding-right:18%;
-	
-    font-size-adjust:auto;
 	
 }
 
@@ -191,7 +187,7 @@ p.slide {
 div.border {
 	position:absolute;
 	top:440px;
-	width:82.5%;
+	width:82%;
 	height:290px;
 	border: 60px solid rgb(67, 142, 198);
 	bottom:360px;
@@ -315,7 +311,7 @@ button.forms {
    	 transition: width 2s;
 	font-family: 'Comic Sans MS';
 	src: url("comic-sans-ms/comici.ttf");
-	font-size:calc(16px + 1.5vw);
+	font-size:calc(14px + 1.5vw);
    	 font-size-adjust:auto;
 	font-weight: bold;
 	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);	
