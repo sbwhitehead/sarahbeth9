@@ -95,14 +95,18 @@ div.content{
 	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-div.textBox{
+table.tb {
 	z-index:2;
 	position: absolute;
 	left:29%;
 	width:52%;
 	top:120px;
 	height:110%;
-	font-size:30px;
+	font-size:30px;	
+}
+
+div.textBox{
+	width:100%;
 	
 }
 
