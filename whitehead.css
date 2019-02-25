@@ -66,7 +66,7 @@ button.bn {
    	transition: width 2s;
 	font-family: 'Comic Sans MS';
 	src: url("comic-sans-ms/comici.ttf");
-	font-size:calc(14px + 1.6vw);
+	font-size:calc(12px + 1.6vw);
         font-size-adjust:auto;
 	font-weight: bold;
 }
@@ -313,7 +313,7 @@ button.forms {
    	 transition: width 2s;
 	font-family: 'Comic Sans MS';
 	src: url("comic-sans-ms/comici.ttf");
-	font-size:calc(14px + 1.5vw);
+	font-size:calc(12px + 1.5vw);
    	 font-size-adjust:auto;
 	font-weight: bold;
 	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);	
