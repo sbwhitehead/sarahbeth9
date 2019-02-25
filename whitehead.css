@@ -174,14 +174,14 @@ iframe.sl{
 p.slide {
 	text-align:center;
 	margin:0px;
-	padding:0px 0px 0px 20px ;
+	padding:470px 0px 0px 20px ;
 	width:100%;
 	height:325px;
-	position:absolute;
+	
 	z-index:1;
 	max-width:700px;
 	opacity: .94;
-	top:470px;
+	top:;
 }
 
 div.border {
