@@ -4,7 +4,7 @@ html {
 }
 body{
 	margin:0px;
-	background-color:/*;
+	background-color:;
 	height:100%;
 	z-index:-1000;
 }
@@ -62,7 +62,7 @@ button.bn {
 	height:100%;
 	border:none;
 	text-align:right;
-	-webkit-transition: width 1.7s; /* For Safari 3.1 to 6.0 */
+	-webkit-transition: width 1.7s; 
    	transition: width 2s;
 	font-family: 'Comic Sans MS';
 	src: url("comic-sans-ms/comici.ttf");
@@ -130,7 +130,7 @@ p.about:hover {
 	background-color: rgb(67, 142, 198, .90);
 	transition: all .4s;
 }
-*/ /*
+
 
 
 
@@ -236,7 +236,7 @@ a.h {
 	 
 }
 
-/* brack.html */
+
 
 div.brack {
     z-index:2;
@@ -314,7 +314,7 @@ button.forms {
 	border:none;
 	text-align:center;
 	font-size:20px;
-	-webkit-transition: width 1.7s; /* For Safari 3.1 to 6.0 */
+	-webkit-transition: width 1.7s;
    	 transition: width 2s;
 	font-family: 'Comic Sans MS';
 	src: url("comic-sans-ms/comici.ttf");
