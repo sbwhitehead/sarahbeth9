@@ -4,7 +4,7 @@ html {
 }
 body{
 	margin:0px;
-	background-color: #2F4F4F;
+	background-color:/*;
 	height:100%;
 	z-index:-1000;
 }
@@ -38,7 +38,7 @@ table.btn {
 	background-color:inherit;
 	z-index:5;
 	border-radius: 25px;
-	-webkit-transition: width 3s; /* For Safari 3.1 to 6.0 */
+	-webkit-transition: width 3s; 
    	transition: width 2.5s;
    	min-width:75px;
 	max-width:400px;
