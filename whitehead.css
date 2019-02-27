@@ -310,10 +310,9 @@ button.forms {
 	padding:4px 8px 4px 8px;
 	background-color:rgb(67, 142, 198);
 	border-radius: 26px;
-	height:6%;
+	
 	border:none;
 	text-align:center;
-	font-size:20px;
 	-webkit-transition: width 1.7s;
    	 transition: width 2s;
 	font-family: 'Comic Sans MS';
