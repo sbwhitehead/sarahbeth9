@@ -176,7 +176,8 @@ img.fb {
 }
 
 iframe.sl{
-	width:100%;	
+	width:100%;
+	max-width:600px;
 }
 
 p.slide {
@@ -187,7 +188,7 @@ p.slide {
 	height:325px;
 	position:absolute;
 	z-index:1;
-	max-width:700px;
+	max-width:600px;
 	opacity: .94;
 	top:470px;
 }
@@ -203,7 +204,7 @@ div.border {
         margin-left: auto;
         margin-right: auto;
 	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
-	max-width:700px;
+	max-width:590px;
 	
 }
 h1.header {
