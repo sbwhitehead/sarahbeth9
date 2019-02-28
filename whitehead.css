@@ -182,6 +182,7 @@ iframe.sl{
 	display: block;
         margin-left: auto;
         margin-right: auto;
+	height: 110%;
 }
 
 p.slide {
