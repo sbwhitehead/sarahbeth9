@@ -248,7 +248,7 @@ a.h {
 
 
 div.brack {
-    z-index:2;
+        z-index:2;
 	position: absolute;
 	left:19.5%;
 	width:70%;
