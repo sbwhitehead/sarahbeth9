@@ -176,8 +176,8 @@ img.fb {
 }
 
 iframe.sl{
-	width:100%;
-	max-width:700px;
+	max-width:100%;
+	width:700px;
 	margin: auto;
 	display: block;
         margin-left: auto;
